@@ -19,7 +19,7 @@ if (empty($userQuery)) {
     exit;
 }
 
-$apiKey = "AIzaSyCCh6RDFzCgg5cx97B5wG5yzbMDblnwV48"; 
+$apiKey = "USE YOUR API KEY HERE"; 
 $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=" . $apiKey;
 
 $systemPrompt = "You are a helpful AI Political Assistant for a website called 'Know Your Leader'. You can answer general political questions about India and the world using Google Search. Be neutral, factual, and concise. Format your answers clearly. If you provide lists, use bullet points. Do not make up information. and answer in as shortest as you can";
