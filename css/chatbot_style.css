@@ -1,0 +1,69 @@
+/* css/chatbot_style.css */
+
+.chat-widget-container {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 1050;
+}
+
+#chat-bubble-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+}
+
+#chat-window {
+    width: 350px;
+    max-width: 90vw;
+    height: 500px;
+    max-height: 70vh;
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    flex-direction: column;
+    display: none;
+
+}
+
+#chat-window .card-body {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-window .card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+.chat-message {
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    margin-bottom: 0.75rem;
+    max-width: 85%;
+    line-height: 1.4;
+    font-size: 0.9rem;
+}
+
+.ai-message {
+    background-color: #e9ecef; 
+    color: #212529;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.user-message {
+    background-color: #0d6efd; 
+    color: #fff;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.chat-message.ai-message .spinner-border {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.15em;
+}
