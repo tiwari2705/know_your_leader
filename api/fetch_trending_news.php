@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$apiKey = "AIzaSyB5Wqs7qApDPk4vpQ41Lq9kduEcCVVLbks"; 
+$apiKey = "USE YOUR API KEY HERE"; 
 $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=" . $apiKey;
 
 $systemPrompt = "You are a neutral news aggregator. Provide a list of the top 5 trending political news headlines in India, based on current search results. For each headline, provide a 1-sentence summary. Format the output as an HTML bulleted list (`<ul>`). Do not add any introductory or concluding text, just the `<ul>`.";
